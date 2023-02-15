@@ -1,0 +1,42 @@
+<div>
+    <form id="productForm" action="/realTimeProducts" method="post" >
+  <fieldset>
+    <legend>Ingrese un nuevo producto</legend>
+    <div class="form-group">
+      <label for="title" class="form-label mt-4">Nombre</label>
+      <input type="text" class="form-control" id="title"  placeholder="Ingrese el nombre del producto">
+    </div>
+    <div class="form-group">
+      <label for="description" class="form-label mt-4">Descripcion</label>
+      <input type="text" class="form-control" id="description"  placeholder="Ingrese una descripcion del producto">
+    </div>
+    <div class="form-group">
+      <label for="price" class="form-label mt-4">Price</label>
+      <input type="number" class="form-control" id="price"  placeholder="Ingrese el precio del producto">
+    </div>
+    <div class="form-group">
+      <label for="thumbnail" class="form-label mt-4">Thumbnail</label>
+      <input type="text" class="form-control" id="thumbnail"  placeholder="Ingrese el thumbnail del producto">
+    </div>
+    <div class="form-group">
+      <label for="code" class="form-label mt-4">Code</label>
+      <input type="text" class="form-control" id="code" placeholder="Ingrese el codigo del producto">
+    </div>
+    <div class="form-group">
+      <label for="stock" class="form-label mt-4">Stock</label>
+      <input type="number" class="form-control" id="stock"  placeholder="Ingrese el stock del producto">
+    </div>
+    <div class="form-group">
+      <label for="category" class="form-label mt-4">Categoria</label>
+      <input type="text" class="form-control" id="category"  placeholder="Ingrese la categoria del producto">
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </fieldset>
+</form>
+
+
+
+
+    <br>
+        {{>realTimeProducts}}
+</div>
